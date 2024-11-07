@@ -1,23 +1,59 @@
-body {
-    display: flex;
-    justify-content: center;
+  /* Basic reset */
+  body {
+    background-color: #333333;
+    color: white;
 
-    background-color: #dadada;
 
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Public Sans", sans-serif;
+font-optical-sizing: auto;
+font-weight: 300;
+font-style: normal;
 }
 
-hr {
-    border: 1px solid #070707;
+
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
 
-a {
-    text-decoration: none;
+/* Wrapper for consistent width */
+.wrapper {
+max-width: 1200px; /* Sets the max width for navbar and content */
+margin: 0 auto; /* Centers the content */
+padding: 0 20px; /* Adds padding on smaller screens */
 }
 
-.maindiv {
-    padding: 40px;
-    border: 1px solid #070707;
-    width: 800px;
-    background-color: #fcfcfc;
+/* Sticky navbar styling */
+.navbar-container {
+position: sticky;
+top: 0;
+background-color: #680000;
+padding: 10px 0;
+z-index: 1000;
+}
+
+.navbar {
+/*display: flex;*/
+/*gap: 20px;*/
+/*justify-content: center; Centers the links within the navbar */
+}
+
+.navbar a {
+color: white;
+text-decoration: none;
+font-size: 18px;
+padding: 8px 16px;
+transition: background-color 0.3s;
+}
+
+/* Hover effect for links */
+.navbar a:hover {
+background-color: #830000;
+border-radius: 4px;
+}
+
+/* Main content styling */
+.content {
+padding: 20px 0;
 }
