@@ -1,0 +1,21 @@
+{
+    "title": "PrestoGuys' Random Links",
+    "version": "1",
+    "items": [
+        {
+            "name": "Firefox, Mozilla",
+            "link": "https://www.mozilla.org/en-US/firefox/",
+            "description": " Get the browser that puts your privacy first — and always has; Seriously private browsing. Firefox automatically blocks 2000+ online trackers from collecting information about what you do online."
+        },
+        {
+            "name": "Firefox Developer Edition, Mozilla",
+            "link": "https://www.mozilla.org/en-US/firefox/developer/",
+            "description": "Welcome to your new favorite browser. Get the latest features, fast performance, and the development tools you need to build for the open web."
+        },
+        {
+            "name": "Killer Bunnies, Jeffrey Neil Bellinger",
+            "link": "https://killerbunnies.com/",
+            "description": "Killer Bunnies is a fun, light-hearted game of social interaction which is great to share with both family and friends. Created in 1989 by Jeffrey Neil Bellinger and illustrated by Jonathan Young, Killer Bunnies is a comical journey through pop-culture. With easy game mechanics and additional twists and turns in each booster deck, there’s a Killer Bunnies adventure that’s right for you!"
+        }
+    ]
+}
